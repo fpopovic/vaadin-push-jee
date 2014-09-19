@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="vaadin-jee-cdi-push-glassfish:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="vaadin-jee-cdi-push.war">
+      <element id="artifact" artifact-name="vaadin-jee-cdi-push-glassfish:war exploded" />
+    </root>
+  </artifact>
+</component>

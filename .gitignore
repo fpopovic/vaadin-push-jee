@@ -1,0 +1,16 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+release.properties
+
+# Vaadin working directories
+/src/main/webapp/VAADIN/gwt-unitCache
+/src/main/webapp/VAADIN/widgetsets
+/src/main/webapp/VAADIN/themes/mytheme/.sass-cache
+
+# IDEA Workspace
+/.idea/workspace.xml
+/.idea/misc.xml
+/vaadin-jee-cdi-push-glassfish.iml
