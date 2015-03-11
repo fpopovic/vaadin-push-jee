@@ -33,4 +33,6 @@
     <inherits name="com.fpopovic.AppWidgetSet" />
 
     <inherits name="java.com.fpopovic.AppWidgetSet" />
+
+    <inherits name="com.ejt.vaadin.sizereporter.WidgetSet" />
 </module>

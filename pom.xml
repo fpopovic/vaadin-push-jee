@@ -87,6 +87,11 @@
             <artifactId>vaadin-cdi</artifactId>
             <version>1.0.0.alpha1</version>
         </dependency>
+        <dependency>
+            <groupId>org.vaadin.addons</groupId>
+            <artifactId>sizereporter</artifactId>
+            <version>0.1.1</version>
+        </dependency>
 
         <!--Java EE 7 API -->
         <dependency>

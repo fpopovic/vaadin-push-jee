@@ -1270,6 +1270,63 @@ div.v-layout.v-horizontal.v-widget {
 	vertical-align: top;
 }
 
+.example-css-layout {
+	background-color: #000000;
+}
+
+.example-css-layout[width-range~="0-600px"] {
+	background-color: green;
+}
+
+.example-css-layout[width-range~="601-900px"] {
+	background-color: red;
+}
+
+.example-css-layout[width-range~="901-1600px"] {
+	background-color: blue;
+}
+
+.example-css-label {
+	color: #ffffff;
+	font-size: 20px;
+}
+
+.example-css-label[width-range~="601-900px"] {
+	color: cyan;
+	font-size: 30px;
+}
+
+.example-css-label[width-range~="901-1600px"] {
+	color: yellow;
+	font-size: 40px;
+}
+
+.example-absolute-layout {
+	background-color: #000000;
+}
+
+.example-absolute-layout[width-range~="0-600px"] {
+	background-color: green;
+}
+
+.example-absolute-layout[width-range~="601-900px"] {
+	background-color: red;
+}
+
+.example-absolute-layout[width-range~="901-1600px"] {
+	background-color: blue;
+}
+
+.example-absolute-label {
+	color: #ffffff;
+	font-size: 20px;
+}
+
+.example-absolute-label[width-range~="901-1600px"] {
+	color: yellow;
+	font-size: 40px;
+}
+
 .mytheme.v-app, .mytheme.v-app-loading {
 	font: 300 16px/1.55 "Open Sans", sans-serif;
 	color: #464646;
